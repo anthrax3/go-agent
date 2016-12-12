@@ -2,6 +2,7 @@ package newrelic
 
 import (
 	"errors"
+	"fmt"
 	"net/http"
 	"net/url"
 	"sync"
@@ -301,7 +302,7 @@ func (txn *txn) End() error {
 	// Note that if a consumer uses `panic(nil)`, the panic will not
 	// propagate.
 	if nil != r {
-		panic(r)
+		fmt.Println("could not save data to NewRelic. if this error persists, please contact support.")
 	}
 
 	return nil
