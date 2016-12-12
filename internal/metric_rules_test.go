@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal/crossagent"
+	"github.com/yhat/go-agent/internal/crossagent"
 )
 
 func TestMetricRules(t *testing.T) {

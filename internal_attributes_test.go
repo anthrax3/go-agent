@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/yhat/go-agent/internal"
 )
 
 func TestUserAttributeBasics(t *testing.T) {

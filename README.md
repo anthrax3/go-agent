@@ -24,10 +24,10 @@ Installing the Go Agent is the same as installing any other Go library.  The
 simplest way is to run:
 
 ```
-go get github.com/newrelic/go-agent
+go get github.com/yhat/go-agent
 ```
 
-Then import the `github.com/newrelic/go-agent` package in your application.
+Then import the `github.com/yhat/go-agent` package in your application.
 
 #### Step 1: Create a Config and an Application
 
@@ -119,7 +119,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/newrelic/go-agent"
+	"github.com/yhat/go-agent"
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {

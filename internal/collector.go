@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/newrelic/go-agent/internal/logger"
+	"github.com/yhat/go-agent/internal/logger"
 )
 
 const (

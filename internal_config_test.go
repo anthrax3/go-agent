@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/utilization"
+	"github.com/yhat/go-agent/internal"
+	"github.com/yhat/go-agent/internal/utilization"
 )
 
 func TestCopyConfigReferenceFieldsPresent(t *testing.T) {

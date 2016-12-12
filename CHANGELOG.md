@@ -8,7 +8,7 @@
   `Memory/Heap/AllocatedObjects` metric.  This will soon be displayed on the "Go
   runtime" page.
 
-* If the [DatastoreSegment](https://godoc.org/github.com/newrelic/go-agent#DatastoreSegment)
+* If the [DatastoreSegment](https://godoc.org/github.com/yhat/go-agent#DatastoreSegment)
   fields `Host` and `PortPathOrID` are not provided, they will no longer appear
   as `"unknown"` in transaction traces and slow query traces.
 
@@ -22,7 +22,7 @@
  [Slow Query Documentation](https://docs.newrelic.com/docs/apm/applications-menu/monitoring/viewing-slow-query-details)
 
 * Added new
-[DatastoreSegment](https://godoc.org/github.com/newrelic/go-agent#DatastoreSegment)
+[DatastoreSegment](https://godoc.org/github.com/yhat/go-agent#DatastoreSegment)
 fields `ParameterizedQuery`, `QueryParameters`, `Host`, `PortPathOrID`, and
 `DatabaseName`.  These fields will be shown in transaction traces and in slow
 query traces.

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/newrelic/go-agent/internal/sysinfo"
+	"github.com/yhat/go-agent/internal/sysinfo"
 )
 
 type segmentStamp uint64

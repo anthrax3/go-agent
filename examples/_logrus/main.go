@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/Sirupsen/logrus"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/_integrations/nrlogrus"
+	newrelic "github.com/yhat/go-agent"
+	"github.com/yhat/go-agent/_integrations/nrlogrus"
 )
 
 const (

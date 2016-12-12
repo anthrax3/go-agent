@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal/logger"
+	"github.com/yhat/go-agent/internal/logger"
 )
 
 func TestJSONMarshalling(t *testing.T) {
